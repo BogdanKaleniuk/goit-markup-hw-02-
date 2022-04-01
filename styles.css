@@ -1,0 +1,125 @@
+/*--- LOGO ---*/
+
+:root {
+  --hover-text-color: #2196f3;
+  --text-hero-black: #212121;
+  --text-gray: #757575;
+  --background-color: #2f303a;
+  --white-color: #ffffff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.logo {
+  text-decoration: none;
+}
+.logo {
+  font-family: "Raleway";
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: var(--hover-text-color);
+}
+.logo-accent {
+  color: var(--text-hero-black);
+}
+
+.navigation {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--text-hero-black);
+}
+.navigation-content:hover,
+.navigation-content:focus {
+  color: var(--hover-text-color);
+}
+
+.header-info {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: var(--text-gray);
+}
+.header-info:hover,
+.header-info:focus {
+  color: var(--hover-text-color);
+}
+
+/* --- MAIN ---*/
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--white-color);
+}
+
+.hero {
+  background-color: #2f303a;
+}
+
+.button-hero {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--white-color);
+  background-color: var(--hover-text-color);
+}
+
+.advantage {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-hero-black);
+}
+
+.advantage-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--text-gray);
+}
+
+/*--- ABOUT ---*/
+
+.about {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+
+  color: var(--text-hero-black);
+}

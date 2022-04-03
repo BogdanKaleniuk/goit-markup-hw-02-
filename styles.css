@@ -10,6 +10,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  color: var(--text-hero-black);
 }
 .list {
   list-style: none;
@@ -32,6 +33,10 @@ body {
 }
 .logo-accent {
   color: var(--text-hero-black);
+}
+
+.navigation .link.current {
+  color: var(--hover-text-color);
 }
 
 .navigation {
@@ -79,10 +84,13 @@ body {
 }
 
 .button-hero {
+  font-family: inherit;
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  border: 0;
+  border-radius: 4px;
   /* identical to box height, or 188% */
 
   display: flex;
@@ -209,7 +217,12 @@ body {
 
   letter-spacing: 0.03em;
 
-  color: var(--text-gray);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-info:hover,
+.footer-info:focus {
+  color: var(--hover-text-color);
 }
 
 .footer-logo-accent {
@@ -217,11 +230,34 @@ body {
 }
 
 /*--- PORTFOLIO ---*/
+.button-nav-hero {
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.62;
+  border: 0;
+  border-radius: 4px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--white-color);
+}
+.button-nav-hero {
+  background: var(--hover-text-color);
+}
 
 .button-nav {
+  font-family: inherit;
+  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  border: 0;
+  border-radius: 4px;
   /* identical to box height, or 162% */
 
   text-align: center;

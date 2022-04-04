@@ -110,6 +110,11 @@ body {
   background-color: var(--hover-text-color);
 }
 
+.button-hero:hover,
+.button-hero:focus {
+  background-color: #188ce8;
+}
+
 .advantage {
   font-weight: 700;
   font-size: 14px;
